@@ -8,17 +8,18 @@ This repository provides scripts and notebooks to fine-tune BERT models for both
 
 ```
 BERT_Models_PT/
-├── Bert_finetuned_Model_PT.py              # Main script for fine-tuning
-├── Setup_BERT_Models_PT_env.ps1            # PowerShell script for setting up environment
-├── FIneTuned_BERT_CLS_Model.ipynb          # Notebook: Sentence-level classification (local)
-├── FIneTuned_BERT_CLS_Model_Colab.ipynb    # Notebook: Sentence-level classification (Colab)
-├── FineTune_BERT_TokenCLS_Model.ipynb      # Notebook: Token-level NER (local)
-├── FineTune_BERT_TokenCLS_Model_Colab.ipynb# Notebook: Token-level NER (Colab)
-├── NER_tags_for BERT.ipynb                 # Utility functions for tagging and preprocessing
-├── CLS_Dataset.csv                         # Sample dataset for classification
-├── TokenCLS_Dataset.csv                    # Token-level dataset
-├── TokenCLS_Dataset_with_ner_tags.csv      # Preprocessed dataset with NER tags
-├── synthetic_ner_health_data.csv           # Synthetic healthcare NER dataset
+├── Bert_finetuned_Model_PT.py                  # Main script for fine-tuning
+├── Setup_BERT_Models_PT_env.ps1                # PowerShell script for setting up environment
+├── FIneTuned_BERT_CLS_Model.ipynb              # Notebook: Sentence-level classification (local)
+├── FIneTuned_BERT_CLS_Model_Colab.ipynb        # Notebook: Sentence-level classification (Colab)
+├── FineTune_BERT_TokenCLS_Model.ipynb          # Notebook: Token-level NER (local)
+├── FineTune_BERT_TokenCLS_Model_Colab.ipynb    # Notebook: Token-level NER (Colab)
+├── FineTuned_BERT_CLS_Model_with_LoRAColab.ipynb # Notebook: Sentence-level classification for LoRA (Colab)
+├── NER_tags_for BERT.ipynb                     # Utility functions for tagging and preprocessing
+├── CLS_Dataset.csv                             # Sample dataset for classification
+├── TokenCLS_Dataset.csv                        # Token-level dataset
+├── TokenCLS_Dataset_with_ner_tags.csv          # Preprocessed dataset with NER tags
+├── synthetic_ner_health_data.csv               # Synthetic healthcare NER dataset
 └── .gitignore
 ```
 
@@ -109,13 +110,3 @@ You can launch JupyterLab or run notebooks directly on [Google Colab](https://co
 - Extend tagging functions in `NER_tags_for BERT.ipynb` to suit your domain-specific needs.
 
 ---
-
-## 📎 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🔗 Repository Link
-
-[👉 BERT_Models_PT on GitHub](https://github.com/Yuvaraj-Reddy-Sanagala/BERT_Models_PT)
